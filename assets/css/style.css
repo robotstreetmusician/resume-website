@@ -845,7 +845,7 @@ main {
 .skill .title-wrapper {
   display: flex;
   align-items: center;
-  gap: 5px;
+  justify-content: space-between;
   margin-bottom: 8px;
 }
 
@@ -868,7 +868,19 @@ main {
   border-radius: inherit;
 }
 
+/**
+ * Download Resume 
+ */
 
+.btn-download {
+  color: var(--light-gray);
+  font-size: var(--fs-12);
+  padding: 20px 7px;
+  transition: color var(--transition-1);
+}
+
+.btn-download:hover,
+.btn-download:focus { color: var(--light-gray-70); }
 
 
 
