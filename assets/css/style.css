@@ -331,18 +331,9 @@ main {
   gap: 15px;
 }
 .avatar-box {
-  background: var(--bg-gradient-onyx);
-  border-radius: 50%; /* Makes the box a circle */
-  padding: 5px; /* Optional: Creates space between the image and the border */
-  display: inline-block; /* Ensure the box wraps around the image size */
+  border-radius: 20px;
 }
 
-.avatar-box img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover; /* Ensures the image fits properly */
-}
 
 .info-content .name {
   color: var(--white-2);
