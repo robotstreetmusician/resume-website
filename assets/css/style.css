@@ -334,6 +334,10 @@ main {
   border-radius: 20px;
 }
 
+.avatar_img {
+   border-radius: 50%;
+}
+
 
 .info-content .name {
   color: var(--white-2);
@@ -559,6 +563,10 @@ main {
 /**
  * #testimonials 
  */
+
+.testimonials { display: none;}
+
+.clients { display: none;}
 
 .testimonials { margin-bottom: 30px; }
 
